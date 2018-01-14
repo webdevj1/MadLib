@@ -7,7 +7,7 @@ const myWay = {
 }
 const WBNP2 = () => (
   <div style={myWay}>
-    <h1>TV Shows MadLIb</h1>
+    <h1>TV Shows MadLib</h1>
   </div>
 )
 
