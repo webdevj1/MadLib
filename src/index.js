@@ -5,6 +5,7 @@ import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Penny from './Penny';
 import WBNP from './WBNP';
 import WBNP2 from './tvshows';
+import Style from './Style.css';
 
 const styles = {
   textDecoration: 'underline',
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Link to="/wbnp"> Build MadLib</Link>{" "}<span> | </span>
       <Link to="/wbnp2"> Tv Show MadLib</Link>{" "}
       <h1>Mad Lib Channel</h1>
+      <img src="https://creativemedia1.wikispaces.com/file/view/MadLibs-Logo.png/463066658/800x264/MadLibs-Logo.png"/>
       <Route path="/penny" component={Penny} />
       <Route path="/wbnp" component={WBNP} />
       <Route path="/wbnp2" component={WBNP2} />
@@ -36,6 +38,7 @@ class App extends React.Component {
   
 }
 //test
+export default Style;
 
 
 render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
