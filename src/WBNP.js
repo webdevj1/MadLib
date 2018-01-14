@@ -12,14 +12,13 @@ const WBNP = () => (
     
     Noun:{" "}<input type='text'/>
     <br />
-    Noun:{" "}<input type='text' />
+    Verb:{" "}<input type='text' />
     <br />
-    Noun:{" "}<input type='text' />
+    Adverb:{" "}<input type='text' />
     <br />
-    Verb: {" "}<input type='text' />
+    Adjective: {" "}<input type='text' />
     <br />
-    Noun:{" "}<input type='text' />
-    <br />
+    
     
     <button>Build Madlib</button>
   </div>
