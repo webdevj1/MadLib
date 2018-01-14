@@ -13,7 +13,7 @@ const quarterIsSpecial = { backgroundColor: 'black', color: 'white', };
 
 const Nickle = ({ hi }) => (
   <div>
-  <h1>NICKLE</h1>
+  <h1>Drew</h1>
   <h3>{hi}</h3>
   <p>A nickle is worth five pennies.</p>
   </div>
