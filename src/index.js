@@ -40,5 +40,6 @@ class App extends React.Component {
 //test
 export default Style;
 
+export default Style.css;
 
 render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
