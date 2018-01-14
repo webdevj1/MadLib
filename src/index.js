@@ -24,7 +24,6 @@ class App extends React.Component {
       <div>
       
         <Link to="/penny">Home</Link>{" "}{" "}<span> | </span>
-        <Link to="/wbnp"> Build MadLib</Link>{" "}<span> | </span>
       <Link to="/wbnp2"> Tv Show MadLib</Link>{" "}
       <h1>Mad Lib Channel</h1>
       <img src="https://creativemedia1.wikispaces.com/file/view/MadLibs-Logo.png/463066658/800x264/MadLibs-Logo.png"/>
