@@ -5,6 +5,10 @@ const divStyles = {
   backgroundColor: 'magenta',
   color: 'goldenrod',
 }
+
+const styleS = {
+  
+}
 const green = { color: 'green' };
 const black = { color: 'black' };
 const silver = { color: 'silver' };
@@ -32,10 +36,10 @@ const Quarter = props => (
   </div>
 )
 const Penny = () => (
-  <div >
+  <div style= {styleS}>
   <h3>Welcome</h3>
   <p>
- Mad Libs was invented in 1953 by Leonard Stern and Roger Price. Stern and Price co-created the game, but couldn't agree on a name for their invention. No name was chosen until five years later (1958), when Stern and Price were eating eggs Benedict at a restaurant in New York City.
+ Mad Libs was invented in 1953 by Leonard Stern and Roger Price. Stern and Price co-created the game, but couldn't agree on a name for their invention. No name was chosen until five years later (1958), when Stern and Price were eating Eggs Benedict at a restaurant in New York City.
   </p>
   
   </div>

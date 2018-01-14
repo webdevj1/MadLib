@@ -5,6 +5,7 @@ import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Penny from './Penny';
 import WBNP from './WBNP';
 import WBNP2 from './tvshows';
+import Style from './Style.css';
 
 const styles = {
   textDecoration: 'underline',
@@ -37,5 +38,6 @@ class App extends React.Component {
 }
 //test
 
+export default Style.css;
 
 render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));
