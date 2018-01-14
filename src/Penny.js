@@ -32,20 +32,25 @@ const Quarter = props => (
   </div>
 )
 const Penny = () => (
-  <div style={divStyles}>
-  <h3>Penny Thing</h3>
-  <p>Penny is a kind of coin but there are other kinds of coins.</p>
-  <Link style={black} to="/penny/nickle">Nickle</Link>{" "}
-  <Link style={green} to="/penny/dime">Dime</Link>{" "}
-  <Link style={silver} to="/penny/quarter" hi="AJ">Quarter</Link>
-  <Switch>
-  <Route path="/penny/nickle">
-  <Nickle hi="JOHN" />
-  </Route>
-  <Route path="/penny/dime" render={Dime} />
-  <Route path="/penny/quarter" render={Quarter} />
-  </Switch>
+  <div >
+  <h3>Welcome</h3>
+  <p>
+ Mad Libs was invented in 1953 by Leonard Stern and Roger Price. Stern and Price co-created the game, but couldn't agree on a name for their invention. No name was chosen until five years later (1958), when Stern and Price were eating eggs Benedict at a restaurant in New York City.
+  </p>
+  
   </div>
 )
 
+//style={divStylesOFF}
+
+  // < Link style= { black } to= "/penny/nickle" > Nickle</Link>{ " "}
+  //   < Link style= { green } to= "/penny/dime" > Dime</Link>{ " "}
+  //     < Link style= { silver } to= "/penny/quarter" hi= "AJ" > Quarter</Link>
+  //       <Switch>
+  //         <Route path="/penny/nickle">
+  //           <Nickle hi="JOHN" />
+  //         </Route>
+  //         <Route path="/penny/dime" render={Dime} />
+  //         <Route path="/penny/quarter" render={Quarter} />
+  //       </Switch>
 export default Penny;
