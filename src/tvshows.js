@@ -11,14 +11,6 @@ const WalkingDead = ({click, noun, verb,adj, name}) =>(
     <h1>Game of Thrones Madlib</h1>
     <p>The mother of {noun} was on her way to Westeros when she saw {adj}{" "}{name}. They discussed ways of ending {name}'s reign</p>
     <button onClick={click}>Generate</button>
-const myWay = {
-  backgroundColor: 'blue',
-  width: 100 + 'vw',
-  height: 100 + 'vh',
-}
-const WBNP2 = () => (
-  <div style={myWay}>
-    <h1>TV Shows MadLib</h1>
   </div>
 )
 
