@@ -20,7 +20,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
+      sdfghjhgfdfghjkjhgfdfghjkljhgfd
       <Link to="/penny">Penny</Link>{" "}
+      
       <Link to="/wbnp">Whole Brand New Page</Link>
       <Route path="/penny" component={Penny} />
       <Route path="/wbnp" component={WBNP} />
