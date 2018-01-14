@@ -22,8 +22,8 @@ class App extends React.Component {
     return (
       <div>
       
-        <Link to="/penny">Home</Link>{" "}{" "}<span> * </span>
-        <Link to="/wbnp"> Build MadLib</Link>{" "}<span> * </span>
+        <Link to="/penny">Home</Link>{" "}{" "}<span> | </span>
+        <Link to="/wbnp"> Build MadLib</Link>{" "}<span> | </span>
       <Link to="/wbnp2"> Tv Show MadLib</Link>{" "}
       <h1>Mad Lib Channel</h1>
       <Route path="/penny" component={Penny} />
